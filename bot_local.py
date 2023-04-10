@@ -190,13 +190,16 @@ def send_plot(message):
         with open('output/plot.png', 'rb') as img:
             bot.send_photo(chat_id, img)
 
+        # send caption plot
+        plot_text = f'This is your requested plot for Campaign ID {selected_campaign_id}.\n'
+        bot.send_message(chat_id, plot_text)
+
         # (EXTRA CHALLENGE) Voice Message
         plot_info = list(zip(
             ['total spent', 'total approved conversion', 'average CPC'],
             df_plot.idxmax(axis = 0),
             df_plot.idxmin(axis = 0)))
 
-        plot_text = f'This is your requested plot for Campaign ID {selected_campaign_id}.\n'
         for col, maxi, mini in plot_info:
             text = f"Age group with the highest {col} is {maxi}, while the lowest is {mini}.\n"
             plot_text += text
