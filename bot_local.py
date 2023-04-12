@@ -55,7 +55,7 @@ def send_about(message):
         about = temp.substitute(
             STUDENT_NAME = 'Andrew Oksner Anggoh',
             BATCH_ACADEMY = 'Vulcan Night',
-            GITHUB_REPO_LINK = 'https://github.com/andrewanggoh/capstone_da_telebot'
+            GITHUB_REPO_LINK = 'https://github.com/andrewanggoh/Capstone_DA_Telebot_Andrew'
         )
 
     bot.send_message(
