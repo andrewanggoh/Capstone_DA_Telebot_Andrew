@@ -2,6 +2,10 @@
 
 This is developed as one of [Algoritma Academy](https://algorit.ma/) Data Analytics Specialization Capstone Projects. The deliverable of this project is a Python script to create a Telegram chatbot using `telebot` package. We will also deploy the chatbot to [Railway](https://railway.app/) and use `Flask` to set up the backend application.
 
+> [!NOTE]
+>
+> *You can test this Telegram chatbot live [here](https://t.me/DACP_VULCAN_ANDREW_BOT). If the chatbot is unresponsive, it may be due to free-tier hosting limitations. Please check out the demo video ([here](https://youtu.be/H1ibSAcm2_Y)) showcasing its full functionality. Alternatively, you can [contact](#contacts) me and I'll be happy to activate it for you to test live!*
+
 ## Rubrics
 
 The maximum score you will obtain from this project is 16 points:  
